@@ -1,0 +1,125 @@
+body {
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: orange;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: blue;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
+
+.pink {
+  color: pink;
+}
+
+.brown {
+  color: brown;
+}
+
+h1 {
+  color: blue;
+}
+
+/* Contact form colors */
+.contact-form label[for="name"] {
+  color: blue;
+}
+
+.contact-form #name {
+  background-color: lightblue;
+}
+
+.contact-form label[for="email"] {
+  color: green;
+}
+
+.contact-form #email {
+  background-color: lightgreen;
+}
+
+.contact-form label[for="subject"] {
+  color: red;
+}
+
+.contact-form #subject {
+  background-color: lightpink;
+}
+
+.contact-form label[for="message"] {
+  color: purple;
+}
+
+.contact-form #message {
+  background-color: white;
+}
+
+.contact-form input[type="submit"] {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: darkorange;
+}
+
+/* Home page styles */
+body.home {
+  background-color: lightblue;
+}
+
+/* About page styles */
+body.about {
+  background-color: lightgreen; /* Light orange background color for about page */
+}
+
+/* Resume page styles */
+body.resume {
+  background-color: lightpink; /* Light green background color for resume page */
+}
+
+/* Contact page styles */
+body.contact {
+  background-color: lavender; /* Light blue background color for contact page */
+}
