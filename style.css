@@ -104,22 +104,19 @@ h1 {
   background-color: darkorange;
 }
 
-/* Home page styles */
+/* Background styles */
 body.home {
   background-color: lightblue;
 }
 
-/* About page styles */
 body.about {
-  background-color: lightgreen; /* Light orange background color for about page */
+  background-color: lightgreen; 
 }
 
-/* Resume page styles */
 body.resume {
-  background-color: lightpink; /* Light green background color for resume page */
+  background-color: lightpink; 
 }
 
-/* Contact page styles */
 body.contact {
-  background-color: lavender; /* Light blue background color for contact page */
+  background-color: lavender; 
 }
